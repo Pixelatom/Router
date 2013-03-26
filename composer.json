@@ -21,7 +21,7 @@
         "source": "https://github.com/Pixelatom/Router"
     },
     "require": {
-        "php": ">=5.3.0",
+        "php": ">=5.3.0",        
         "Pixelatom/HTTP": "dev-master"
     },
     "autoload": {
