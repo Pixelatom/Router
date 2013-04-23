@@ -1,12 +1,12 @@
 <?php
-// includes ClassLoader implementation from the framework
+// includes ClassLoader implementation from composer
 require_once '../vendor/autoload.php';
 
 
 // enabled to stop at any error
 //linxphp\common\ErrorHandler::register();
 
-use Pixelatom\Router;
+use Pixelatom\Router\Router;
 
 // optional and required section arguments detection
 Router::register('GET', '/users/?/*', function($action,$id=''){
